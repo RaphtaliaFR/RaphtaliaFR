@@ -2,7 +2,7 @@
 
 ///////////////////////////////// Welcome to my Theme ! /////////////////////////
 
-//////// It is time to start fresh again due to these oncoming updates of Discord /
+It is time to start fresh again due to these oncoming updates of Discord 
 
 to contact me via discord: Raphtalia#3392 
                
