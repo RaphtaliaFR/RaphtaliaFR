@@ -29,7 +29,69 @@ svg[name="DiscordWordmark"] {
     background-image: none !important;
 }
   
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+ 
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
 
+.name-3YKhmS, .tierTooltipTitle-1EIbL_ {
+    font-weight: 600;
+    background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;
+}
+
+.title-eS5yk3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: var(--header-primary);
+    line-height: 18px;
+    font-weight: 600;
+    background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;
+}
+
+.nameTag-m8r81H .bot-2Fta1w, .nameTag-m8r81H .discriminator-19kRMP, .nameTag-m8r81H .username-2b1r56 {
+    display: block;
+    background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;
+}
+
+.headerText-1-AnT0 {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
+}
+.container-2ax-kl {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
+}
 
 .app-2rEoOp {
     background-color: transparent;
@@ -898,7 +960,7 @@ svg[name="DiscordWordmark"] {
 
 .base-1x0h_U {
     font-weight: bold;
-    color: white;
+	color: white;
 }
 
 .outer-2IVh5n,
@@ -1311,6 +1373,12 @@ svg[name="DiscordWordmark"] {
 .wrapper-pZmgj4,
 .addButton-1BORro {
     color: white;
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
 }
 
 .css-mhi7q3-placeholder {
@@ -2390,7 +2458,6 @@ svg[name="DiscordWordmark"] {
 	font-size: 12px;
 }
 
-	
 .container-3baos1, .container-3baos1 .avatar-SmRMf2 {
 	width: 250px;
 	height: 50px;
@@ -2570,4 +2637,21 @@ svg[name="DiscordWordmark"] {
 
 .subMenuContext-2n_9YM {
   left: -0px;
+}
+
+.art-347BZj {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    width: 200px;
+    height: 120px;
+    background-image: none;
+}
+
+.layer-v9HyYc[style*="left: 550px;"] {
+   left: 252px !important;
 }
